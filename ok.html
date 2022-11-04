@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <script>
+        var val1 = 12;
+        let val2 = 13;
+        const val3 = 14;
+    </script>
+    <script>
+        /*вывод информации*/
+        /*alert(val1);*/
+        console.log(val2);
+        console.log(val3);
+
+        /*Получение информации*/
+        /*val2 = prompt('Введите что нибудь');*/
+        console.log(val2);
+
+        if (true) {
+            var test1 = '1';
+            let test2 = '2';
+        }
+        console.log(test1);
+        /*console.log(test2);*/
+        /*
+        Типы данных JS
+        1. Number    - любые числа
+        2. String    - любые символы (строки) 
+        3. Boolean   - логический тип 
+        4. Undefined - неопределенное значение
+        5. Null      - отстутствие значения
+        */
+        /*Преобразование типов: 
+        let userValue1 = prompt('Введите число 1:');
+        let userValue2 = prompt('Введите число 2:');
+        console.log(`Сумма чисел: ${userValue1 - userValue2}`)s
+
+        /*3 способа привести строку к числу:*/
+        /*1. Number()*/
+        let test11 = '1asd';
+        test11 = Number(test11);
+        console.log (typeof test11);
+        console.log (test11);
+
+        let test12 = '1sda';
+        test12 = +test12;//Унарный плюс
+        console.log (typeof test12);
+        console.log (test12);
+
+        let test13 = '1wsad';
+        test13 = parseInt(test13);//Метод parseInt или parseFloat
+        console.log (typeof test13);
+        console.log (test13);
+
+        /*Число к строке:*/
+        /*1. Обычная конкатенация*/
+        let num3 = 12;
+        num3 = num3 + '';
+        console.log(typeof num3);
+
+        /*2. toString()*/
+        let num4 = 42;
+        num4 = num4.toString();
+        console.log(typeof num4);
+
+        /*Арифметика: + - * / % ** */
+
+        console.log(2 ** 3);
+
+        /*Методы обьекта Math():*/
+        let test17 = 2;
+        test17++;
+
+        test18 = -3;
+        test18 = Math.abs(test18);//Модуль числа
+        console.log(test18);
+
+        console.log(Math.trunc(Math.random() * 10) + 1);
+
+        /* Math.round() - округление по правилам математики*/
+    </script>
+</body>
+</html>
